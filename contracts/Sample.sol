@@ -6,7 +6,7 @@ import "./Libraries/math/SafeMath.sol";
 import "./Libraries/utils/Address.sol";
 import "./Libraries/utils/Ownable.sol";
 
-contract Vault is Ownable {
+contract Sample is Ownable {
     using SafeERC20 for IERC20;
     using Address for address;
     using SafeMath for uint256;
